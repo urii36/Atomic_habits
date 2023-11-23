@@ -4,10 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ebd80-fea1-401d-834b-89a4b201715e" name="Changes" comment="users commit">
+    <list default="true" id="e93ebd80-fea1-401d-834b-89a4b201715e" name="Changes" comment="settings and application">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atomic_habits/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/atomic_habits/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atomic_habits/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic_habits/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/atomic_habits/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/management/commands/populate_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0002_alter_habit_frequency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0003_alter_habit_frequency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0004_habit_date_of_creation_habit_notification_time_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0005_habit_weekday.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0006_alter_habit_reward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0007_habit_is_starting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0008_rename_date_of_creation_habit_date_of_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0009_habit_notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/0010_alter_habit_notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/paginations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/habit/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +58,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/kun-1/PycharmProjects/atomic_habits"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kun-1/PycharmProjects/atomic_habits&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kun-1\PycharmProjects\atomic_habits" />
@@ -46,7 +71,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="atomic_habits" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,8 +83,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -93,12 +118,29 @@
       <option name="project" value="LOCAL" />
       <updated>1700729504507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="settings and application">
+      <option name="closed" value="true" />
+      <created>1700729791207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729791207</updated>
+    </task>
+    <task id="LOCAL-00004" summary="settings and application">
+      <option name="closed" value="true" />
+      <created>1700729801865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729801865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="users commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="users commit" />
+    <MESSAGE value="settings and application" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings and application" />
   </component>
 </project>
